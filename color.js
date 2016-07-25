@@ -29,12 +29,6 @@ $(this).css("background-color", "rgb("+r+","+g+","+b+")");
 $('#Randombox').on("click",hoverCallback);
 
 /////////////////////////////////////////////////Play/////////////////
-function whiteBox(){
-  $('.odd').hover(function () {
-    $(this).css("background-color", "white");
-  });
-}
-
 function blackBox(){
  stoptheMadness();
   $('.odd').hover(function () {
@@ -42,8 +36,6 @@ function blackBox(){
   });
 }
 $('#blackbox').on("click",blackBox);
-
-
 
 /////////////////////////Fade In Code/////////////////////////////
 
